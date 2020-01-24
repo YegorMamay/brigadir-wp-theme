@@ -3,13 +3,13 @@ $image-url-path: "assets/img/" !default;
 $font-url-path: "assets/fonts/" !default;
 
 // BRAND
-$themeColorOne: #2c3e50; // Обычно самый темный цвет. Используется для:
+$themeColorOne: #192f34; // Обычно самый темный цвет. Используется для:
 // заголовков h1-h6 - $titleFontColor и других.
 
-$themeColorTwo: #e74c3c; // Основной "брендовый" цвет.
+$themeColorTwo: #6184d9; // Основной "брендовый" цвет.
 // Поменять значение этой переменной согласно макета обязательно!
 
-$borderRadius: 0;
+$borderRadius: 25px;
 $borderColor: lighten($themeColorOne, 70%);
 $shadow: 0 0 10px rgba($themeColorOne, .2);
 
@@ -59,7 +59,7 @@ $menu-close-color: #fff;
 $menuContainerMobilePaddingTop: 30%;
 
 // FOOTER
-$footerBgColor: $themeColorOne;
+$footerBgColor: $themeColorTwo;
 $footerFontColor: #fff;
 $footerLinkColorActive: darken($footerFontColor, 5%);
 
